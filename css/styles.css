@@ -1,0 +1,69 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #121212;
+}
+
+.container {
+  margin: 100px;
+  background-color: #2a2a2a;
+  border-radius: 20px;
+  padding: 50px;
+  border: 5px solid #7a0000;
+}
+
+.container h1 {
+  font-size: 45px;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.container .slick-prev:before, .container .slick-next:before {
+  font-size: 24px;
+  color: #0c0c0c;
+}
+
+.container .slick-prev, .container .slick-next {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #7a0000;
+  background: #ffffff;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.container .slick-prev:hover, .container .slick-prev:active, .container .slick-prev:focus, .container .slick-next:hover, .container .slick-next:active, .container .slick-next:focus {
+  border: 1px solid #7a0000;
+  background: #f0f0f0;
+  opacity: 0.75;
+}
+
+.container .test-carousel img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 768.98px) {
+  .container {
+    margin: 50px;
+    padding: 25px;
+  }
+  .container h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 480.98px) {
+  .container {
+    margin: 20px;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
