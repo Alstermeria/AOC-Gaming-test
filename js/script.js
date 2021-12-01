@@ -1,14 +1,13 @@
 
 $(document).ready(function () {
-$('.test-carousel').slick({
-      slidesToShow: 1,
+$('.slider-carousel').slick({
+      slidesToShow: 3,
       slidesToScroll: 1,
       infinite: true,
-      centerMode: true,
     adaptiveHeight: true,
+    centerMode: true,
       autoplay: true,
       autoplaySpeed: 4000,
-     fade: true,
       responsive: [
     {
           breakpoint: 1051,
